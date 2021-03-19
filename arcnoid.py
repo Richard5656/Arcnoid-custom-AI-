@@ -94,7 +94,7 @@ if __name__=="__main__":
           try:
               vspeak("What message should I send master")
               content=takeCommand()
-              to="priti2013a@gmail.com"
+              to="email id to whom you want to send"
               sendEmail(to,content)
               vspeak("Master email has been successfully delivered!")
           except Exception as e:
